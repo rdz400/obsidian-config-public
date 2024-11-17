@@ -1,0 +1,25 @@
+body {
+    --indentation-guide-width: 1px;
+}
+
+/*
+
+*/
+div.markdown-source-view a.cm-underline,
+div.markdown-reading-view a.internal-link,
+div.markdown-reading-view a.external-link
+{
+    background-color: color-mix(in srgb, var(--blue) 10%, transparent 80%);
+    font-family: "Roboto Condensed";
+    font-size: var(--font-small);
+    color: var(--blue);
+    --link-external-decoration: underline;
+    --link-decoration: none;
+    --link-weight: normal;
+}
+
+
+.cm-hmd-internal-link {
+    background-color: color-mix(in srgb, var(--blue) 10%, transparent 80%);
+    font-size: var(--font-small);
+}

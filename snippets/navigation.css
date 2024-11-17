@@ -1,0 +1,84 @@
+/*
+GENERAL FOLDER SETTINGS
+*/
+
+.nav-folder-title {
+    font-family: var(--ro-font);
+    --nav-item-weight: 500;
+}
+
+/*
+NAVIGATION FILE SETTINGS
+*/
+
+.nav-file-title {
+    font-family: var(--ro-file-font);
+}
+
+
+/*
+FOLDERS STARTEND MET 0-
+*/
+
+.nav-folder-title[data-path^="0-"] {
+    color: var(--red);
+    --nav-item-color-hover: color-mix(in srgb, var(--red) var(--fg-contrast-amount), var(--contrast-color));
+    --nav-item-background-hover: color-mix(in srgb, var(--red) var(--bg-contrast-amount), transparent);
+    --background-modifier-border-focus: color-mix(in srgb, var(--red) 40%, transparent);
+    --nav-collapse-icon-color: color-mix(in srgb, var(--red) 60%, transparent);
+}
+
+.nav-folder .nav-folder .nav-folder-title[data-path^="0-"] {
+    color: color-mix(in srgb, var(--red) 80%, transparent);
+}
+
+.nav-folder-title[data-path^="0-"]:hover {
+    --nav-collapse-icon-color: color-mix(in srgb, var(--red) 60%, var(--contrast-color));
+}
+
+.tree-item-children .nav-folder:has(.nav-folder-title[data-path^="0-"]) .nav-file-title {
+    color: color-mix(in srgb, var(--red) var(--medium-contrast-amount), var(--default-text-color));
+}
+
+.tree-item-children .nav-folder:has(.nav-folder-title[data-path^="0-"]) {
+    --nav-indentation-guide-color: color-mix(in srgb, var(--red) var(--medium-contrast-amount), transparent);
+    --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--red) 50%, var(--highlight)) var(--bg-contrast-amount), transparent);
+    --background-modifier-border-focus: color-mix(in srgb, var(--red) 40%, transparent);
+    --nav-item-background-active: color-mix(in srgb, var(--red) var(--active-contrast-amount), transparent);
+}
+
+
+/*
+FOLDERS STARTEND MET 1-
+*/
+.nav-folder-title[data-path^="1-"] {
+    color: var(--magenta);
+    --nav-item-color-hover: color-mix(in srgb, var(--magenta) var(--fg-contrast-amount), var(--contrast-color));
+    --nav-item-background-hover: color-mix(in srgb, var(--magenta) var(--bg-contrast-amount), transparent);
+    --background-modifier-border-focus: color-mix(in srgb, var(--magenta) 40%, transparent);
+    --nav-collapse-icon-color: color-mix(in srgb, var(--magenta) 60%, transparent);
+}
+
+.nav-folder .nav-folder .nav-folder-title[data-path^="1-"] {
+    color: color-mix(in srgb, var(--magenta) 80%, transparent);
+}
+
+.nav-folder-title[data-path^="1-"]:hover {
+    --nav-collapse-icon-color: color-mix(in srgb, var(--magenta) 60%, var(--contrast-color));
+}
+    
+.tree-item-children .nav-folder:has(.nav-folder-title[data-path^="1-"]) .nav-file-title {
+    color: color-mix(in srgb, var(--magenta) var(--medium-contrast-amount), var(--default-text-color));
+}
+
+.tree-item-children .nav-folder:has(.nav-folder-title[data-path^="1-"]) {
+    --nav-indentation-guide-color: color-mix(in srgb, var(--magenta) var(--medium-contrast-amount), transparent);
+    --nav-item-background-hover: color-mix(in srgb, color-mix(in srgb, var(--magenta) 50%, var(--highlight)) var(--bg-contrast-amount), transparent);
+    --background-modifier-border-focus: color-mix(in srgb, var(--magenta) 40%, transparent);
+    --nav-item-background-active: color-mix(in srgb, var(--magenta) var(--active-contrast-amount), transparent);
+}
+
+/* Voeg een onderrand toe aan folders in de root */
+.nav-files-container > div > .nav-folder > .nav-folder-title{
+    border-bottom: solid 1px color-mix(in srgb, var(--contrast-color) 20%, transparent);
+}

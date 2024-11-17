@@ -1,0 +1,8 @@
+thead.table-view-thead th.table-view-th {
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+}
+
+table.dataview tr, table.dataview td {
+    font-size: 0.9em;
+}

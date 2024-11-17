@@ -1,0 +1,21 @@
+{
+  "accentColor": "#4472c4",
+  "textFontFamily": "Roboto,Segoe UI,Open Sans,Georgia",
+  "translucency": true,
+  "baseFontSize": 16,
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "main",
+    "navigation",
+    "linkjes",
+    "personal",
+    "tables",
+    "tags",
+    "custom"
+  ],
+  "baseFontSizeAction": true,
+  "theme": "obsidian",
+  "interfaceFontFamily": "Roboto",
+  "monospaceFontFamily": "Cascadia Code",
+  "showViewHeader": true
+}
