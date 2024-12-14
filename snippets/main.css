@@ -1,12 +1,12 @@
 :root{
     --highlight: #fff;
     --shadow: #0b0c2c;
-    --ro-font: "Roboto Mono";
-    --ro-file-font: "Roboto Condensed";
+    --ro-font: "JetBrains Mono";
+    --ro-file-font: "Segoe UI";
 }
 
 :root body {
-    --h1-size: 1.4em;
+    --h1-size: 1.6em;
     --h2-size: 1.3em;
     --h3-size: 1.2em;
     --h4-size: 1.15em;
@@ -59,7 +59,6 @@
 
 div.markdown-source-view:not(.is-live-preview) {
     --font-text: 'JetBrains Mono';
-    --font-text-size: 14px;
 }
 
 .theme-light h1, .theme-dark h1, .markdown-rendered h1 {
@@ -88,4 +87,8 @@ div.markdown-source-view:not(.is-live-preview) {
 /* <<------------- Hide Strikethrough in LIVE PREVIEW ----------------->> */
 .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"] {
     text-decoration: none;
+}
+
+.cm-sizer {
+    --file-line-width: 850px;
 }

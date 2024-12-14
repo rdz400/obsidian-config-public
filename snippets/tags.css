@@ -1,5 +1,5 @@
 .cm-hashtag, .tag {
     --tag-color: var(--red);
     --tag-size: 0.8em;
-    font-family: 'Cascadia Mono';
+    font-family: 'JetBrains Mono';
 }
