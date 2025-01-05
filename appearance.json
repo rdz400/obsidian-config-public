@@ -1,5 +1,5 @@
 {
-  "accentColor": "#4472c4",
+  "accentColor": "",
   "textFontFamily": "Roboto,Segoe UI,Open Sans,Georgia",
   "translucency": true,
   "baseFontSize": 16,
@@ -11,11 +11,12 @@
     "personal",
     "tables",
     "tags",
-    "custom"
+    "custom",
+    "dataview"
   ],
   "baseFontSizeAction": true,
   "theme": "obsidian",
   "interfaceFontFamily": "Roboto",
-  "monospaceFontFamily": "Cascadia Code",
+  "monospaceFontFamily": "JetBrains Mono,Cascadia Code",
   "showViewHeader": true
 }

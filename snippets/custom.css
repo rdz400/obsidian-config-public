@@ -14,15 +14,30 @@
     --link-weight: 600;
 }
 
-.markdown-source-view.rotest .el-ul>ol>li,
-.markdown-source-view.rotest .el-ul>ul>li,
-.markdown-preview-view.rotest .el-ul>ol>li,
-.markdown-preview-view.rotest .el-ul>ul>li,
-.markdown-source-view.rotest .HyperMD-list-line-1.cm-line {
-    padding-top: 0.5em;
-}
 
 .rodata {
     --line-height-normal: 1.3;
     --font-text-size: 14px;
+}
+
+
+/* voor custom query project-deliverables */
+
+.ro_h2 {
+    background-color: aquamarine;
+    margin-top: 1.5em;
+    margin-bottom: 0em !important;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    font-weight: normal !important; /* fix emoji not printing */
+}
+
+.ro_h3 {
+    margin-top: 0.3em;
+    margin-bottom: -0.8em;
+}
+
+.narrow .task-list-item {
+    padding-top: 0.01em !important;
+    padding-bottom: 0.01em !important;
 }

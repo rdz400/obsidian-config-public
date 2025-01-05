@@ -3,18 +3,8 @@ GENERAL FOLDER SETTINGS
 */
 
 .nav-folder-title {
-    font-family: var(--ro-font);
     --nav-item-weight: 500;
 }
-
-/*
-NAVIGATION FILE SETTINGS
-*/
-
-.nav-file-title {
-    font-family: var(--ro-file-font);
-}
-
 
 /*
 FOLDERS STARTEND MET 0-

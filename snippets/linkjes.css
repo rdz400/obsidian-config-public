@@ -6,14 +6,8 @@ div.markdown-source-view a.cm-underline,
 div.markdown-reading-view a.internal-link,
 div.markdown-reading-view a.external-link
 {
-    background-color: color-mix(in srgb, var(--blue) 10%, transparent 80%);
     --link-external-decoration: underline;
     --link-decoration: none;
-    --link-weight: normal;
-}
-
-
-.cm-hmd-internal-link {
-    background-color: color-mix(in srgb, var(--blue) 10%, transparent 80%);
-    padding: 0.2em;
+    --link-weight: bold;
+    font-size: 0.95em;
 }

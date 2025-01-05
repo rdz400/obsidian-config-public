@@ -69,16 +69,6 @@ div.markdown-source-view:not(.is-live-preview) {
     margin-block-end: 0.2em;
 }
 
-.theme-light p, .theme-dark p, .markdown-rendered p {
-    margin-block-start: 0.5em;
-    margin-block-end: 1em;
-}
-
-.markdown-rendered ul, .markdown-rendered ol {
-    margin-block-start: 0.2em;
-    margin-block-end: var(--p-spacing);
-}
-
 /* <<------------- Hide Strikethrough in READING VIEW ----------------->> */
 .markdown-preview-view ul>li.task-list-item {
     text-decoration: none;
@@ -89,6 +79,7 @@ div.markdown-source-view:not(.is-live-preview) {
     text-decoration: none;
 }
 
+/* Breedte van editor scherm */
 .cm-sizer {
     --file-line-width: 850px;
 }

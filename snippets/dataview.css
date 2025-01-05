@@ -1,0 +1,25 @@
+
+.dataview.inline-field {
+    font-size: 0.65em;
+    text-transform: lowercase;
+    /* border: 1px solid; */
+}
+
+.dataview.inline-field-key {
+    color: white;
+    background-color: var(--blue);
+    /* padding: 3px; */
+    padding: 0px 1px 0px 1px;
+    border: 1px solid black;
+}
+
+.dataview.inline-field-value {
+    background-color: var(--bg);
+    font-weight: bold;
+    padding: 0px auto 0px auto;
+    border: 1px solid black;
+}
+
+.dataview.inline-field-key[data-dv-key="T"] {
+    display: none !important;
+}
